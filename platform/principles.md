@@ -9,7 +9,3 @@ The platform is being built as a Public Digital Good and follows a key set of de
 * Performance at Scale
 * Open
 
-## 
-
-
-

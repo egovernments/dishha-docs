@@ -1,6 +1,6 @@
 # Table of contents
 
-* [FIX](README.md)
+* [Dishha](README.md)
 * [Platform](platform/README.md)
   * [Principles](platform/principles.md)
   * [Architecture](platform/architecture.md)

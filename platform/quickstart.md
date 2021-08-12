@@ -55,7 +55,7 @@ Here in this Quickstart guide we'll install basic services to get the platform u
 
 **Once the above prerequisites are met, run the following tasks depending upon your OS.**
 
-* _\*\*_login/ssh into the machine, go to terminal/command prompt and run the following commands as an admin user.
+* \_\*\*\_login/ssh into the machine, go to terminal/command prompt and run the following commands as an admin user.
 * Create /Kube directory and change permission. To use this directory for persistent data mount. This means all the container logs, data will be stored here.
 
 ```text

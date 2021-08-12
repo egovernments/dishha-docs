@@ -4,7 +4,7 @@ Government
 
 | Field | Type | Description |
 | :--- | :--- | :--- |
-| name | String | Name of the Government - e.g. India, Nigeria, Punjab,  |
+| name | String | Name of the Government - e.g. India, Nigeria, Punjab, |
 
 Department
 
@@ -28,7 +28,7 @@ Chart of Account
 
 | Field | Type | Description |
 | :--- | :--- | :--- |
-| name | String | Name of the Account  |
+| name | String | Name of the Account |
 |  |  |  |
 
 Program
@@ -48,5 +48,5 @@ Fiscal Event
 | Field | Type | Description |
 | :--- | :--- | :--- |
 | id | String | Unique Identifier for the Event |
-| eventType | String | Event Type e.g. Sanction, Appropriation, Allocation,  |
+| eventType | String | Event Type e.g. Sanction, Appropriation, Allocation, |
 
