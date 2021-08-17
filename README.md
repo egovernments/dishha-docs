@@ -1,24 +1,21 @@
 ---
-description: Fiscal Information Exchange Platform
+description: Digital Infrastructure for Sustainable and Healthy Habitats
 ---
 
-# Dishha
+# DISHHA
 
 ## Introduction
 
-FIX is an information exchange infrastructure \(similar to highways\) that will facilitate exchange of fiscal information across central, state and local governments and also between various departments in a standardized manner. It is being developed as a open public digital good \(PDG\) which can be leveraged by any government.
+Traceability in waste management is a great ally for changemakers and businesses to understand and mend the negative impacts on the environment and make effective decisions. Transparency and accountability created by tracking waste leads to maximum waste recovery and proper waste disposal. For it to be done efficiently, it is necessary to have updated reliable data, in one place. The digital infrastructure is capable of uniquely identifying and making provisions in the processes to capture waste information that enables traceability along its journey through the value chain. And is therefore the first step towards establishing a system to answer questions like “how did it end up here?”, “what is the chain of custody of this waste unit?”, “how much ended up in the environment?”, etc.
 
-FIX facilitates exchange of information through a standard set of API \(Application Program Interfaces\) and events that are available in the [Standards](platform/standards/) section.
+## **Goals**
 
-FIX provides standard APIs for management of master data like Departments, Funds, Chart of Accounts, Locations, Programs and Projects. Client systems can register into FIX and based on the permissions granted use the APIs to manage the master data and/or post primary fiscal events e.g. Sanction, Appropriation, Allocation, Transfer, Demand, Receipt, Bill, Payment. FIX then makes this information available through Standard API for in aggregated and dis-aggregated form for other systems to query and leverage.
+Ensure traceability of waste _by_ enabling the ecosystem with
 
-## Use Cases
+* Digital standards for sanitation
+* Chain of Custody
+* Actionable Data
+* Code for Innovation
 
-FIX can be used for variety of use cases
-
-1. National Governments can use FIX to exchange fiscal information about various national funded programs with state and local governments.
-2. State Governments can use FIX to exchange fiscal information about various national funded and state funded programs across various departments.
-3. Local Governments can use FIX to exchange fiscal information with various state and national departments. 
-
-\*\*\*\*
+_to_ move the habitats towards zero untreated waste
 

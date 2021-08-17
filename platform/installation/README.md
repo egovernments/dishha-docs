@@ -19,8 +19,6 @@ Choose you cloud and follow the Instruction to setup a Kubernetes cluster before
 
 {% page-ref page="ifix-deployment-1.md" %}
 
-{% page-ref page="mgramseva-deployment.md" %}
-
 ## 3. Destroy the Cluster <a id="5-destroy-the-cluster"></a>
 
 Finally, cleanup the cluster Setup if you wish, using the following command. This will delete the entire cluster and other cloud resources that were provisioned for the DIGIT Setup.

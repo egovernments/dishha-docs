@@ -1,6 +1,6 @@
 # Information Model
 
-Government
+\]Government
 
 | Field | Type | Description |
 | :--- | :--- | :--- |
@@ -37,16 +37,7 @@ Program
 | :--- | :--- | :--- |
 | name | String | Name of the Program - e.g. Jal Jeevan Mission |
 
-Project
-
 | Field | Type | Description |
 | :--- | :--- | :--- |
 | name | String | Name of the Project - e.g. Kartarpur Sahib Water Tank |
-
-Fiscal Event
-
-| Field | Type | Description |
-| :--- | :--- | :--- |
-| id | String | Unique Identifier for the Event |
-| eventType | String | Event Type e.g. Sanction, Appropriation, Allocation, |
 
