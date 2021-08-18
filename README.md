@@ -6,7 +6,7 @@ description: Digital Infrastructure for Sustainable and Healthy Habitats
 
 ## Introduction
 
-Traceability in waste management is a great ally for changemakers and businesses to understand and mend the negative impacts on the environment and make effective decisions. Transparency and accountability created by tracking waste leads to maximum waste recovery and proper waste disposal. For it to be done efficiently, it is necessary to have updated reliable data, in one place. The digital infrastructure is capable of uniquely identifying and making provisions in the processes to capture waste information that enables traceability along its journey through the value chain. And is therefore the first step towards establishing a system to answer questions like “how did it end up here?”, “what is the chain of custody of this waste unit?”, “how much ended up in the environment?”, etc.
+Drawing from the principles of societal platforms leads us into imagining a space where sanitation has shared resources, curated and evolving knowledge, and unified yet contextual solutions that speak to the needs of the community.  We believe every changemaker must have access to a unified, shared, and context-invariant digital infrastructure — a unified software, hardware & network solution that aggregates, secures, transfers, and operates information from multiple physical touchpoints. This enables the ecosystem to use these digital building blocks like standard lego-pieces and build context-dependent solutions. Plug-and-play blocks not only free up resources that can be used for focusing on critical non-technology elements like policy frameworks, capacity building, change management but also avoids a chaotic, siloed, and unsupervised digital space.
 
 ## **Goals**
 
