@@ -6,6 +6,7 @@
     * [Background and Landscape](mission/concept-note/untitled.md)
     * [FSSM - a complex system](mission/concept-note/background.md)
     * [Pivotal Problems](mission/concept-note/approach.md)
+  * [Page 1](mission/page-1.md)
   * [Execution Plan](mission/execution-plan.md)
 * [Platform](platform/README.md)
   * [Principles](platform/principles.md)
