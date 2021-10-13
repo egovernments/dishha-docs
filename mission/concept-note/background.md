@@ -14,7 +14,7 @@ In the following section, we use a systems mapping approach to delineate the var
 
 ![](../../.gitbook/assets/7.png)
 
-Part 1 - Toilets and Containment Units
+**Part 1 - Toilets and Containment Units**
 
 ![](../../.gitbook/assets/8.png)
 
@@ -75,7 +75,7 @@ Plant Operators:
 * Treatment plant management and maintenance is difficult and costly, the payments are often not linked to performance. The performance is not directly causally linked to the environmental impact.
 * Operations are not monitored to facilitate preventive action within the plant, and lack any binding linkages with standard operating procedures and service level agreements.
 
-Part 4 - Ecosystem
+**Part 4 - Ecosystem**
 
 ![](../../.gitbook/assets/11.png)
 
