@@ -4,7 +4,7 @@
 * [Mission](mission/README.md)
   * [Concept Note](mission/concept-note/README.md)
     * [Background and Landscape](mission/concept-note/untitled.md)
-    * [Background](mission/concept-note/background.md)
+    * [FSSM - a complex system](mission/concept-note/background.md)
     * [Approach](mission/concept-note/approach.md)
   * [Execution Plan](mission/execution-plan.md)
 * [Platform](platform/README.md)
