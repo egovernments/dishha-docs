@@ -8,7 +8,7 @@
     * [FSSM - a complex system](mission/concept-note/background.md)
     * [Pivotal Problems](mission/concept-note/approach/README.md)
       * [Page 1](mission/concept-note/approach/page-1.md)
-      * [Addressing Pivotal Problems](mission/concept-note/approach/addressing-pivotal-problems.md)
+      * [Mission - EnvisioninAddressing Pivotal Problems](mission/concept-note/approach/mission-envisioninaddressing-pivotal-problems.md)
     * [Page 1](mission/concept-note/page-1-1.md)
   * [Page 1](mission/page-1.md)
   * [Page 1](mission/page-1-1.md)
