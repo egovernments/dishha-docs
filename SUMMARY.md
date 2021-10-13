@@ -9,6 +9,7 @@
     * [Pivotal Problems](mission/concept-note/approach.md)
     * [Page 1](mission/concept-note/page-1-1.md)
   * [Page 1](mission/page-1.md)
+  * [Page 1](mission/page-1-1.md)
   * [Execution Plan](mission/execution-plan.md)
 * [Platform](platform/README.md)
   * [Principles](platform/principles.md)
