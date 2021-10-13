@@ -23,7 +23,7 @@ City Managers, Centre/State Govt
 While Sanitation has been a clear priority for the Centre and State Governments, city administrators have been strapped due to deficiencies in standards, building codes, municipal processes, and contracting and monitoring capabilities which makes it difficult to ensure the adequacy, usability, and safety of the toilets provisioned by public funds.\
 
 
-**Masons**
+Masons
 
 The role of masons is fundamental in proper construction of toilets and containment units. Currently, a majority of masons [lack the necessary training](https://iihs.co.in/knowledge-gateway/wp-content/uploads/2021/03/Training-Needs-Assesments-Mason-01-september-2020.pdf) on construction standards. They are rarely employed using formal contracts which contributes to the lack of traceability and accountability when it comes to the construction of toilets.\
 
@@ -60,8 +60,7 @@ City Managers, Centre/State Govt:
 
 ![](../../.gitbook/assets/10.png)
 
-City Managers, Centre/State Govt:\
-
+City Managers, Centre/State Govt:
 
 * Difficult to regulate the market for across various stages of construction and operations
 * Operational data of the treatment plant and process is often recorded offline and used for post-facto auditing. There is a pervasive lack of actionable information.
@@ -85,8 +84,7 @@ Civil Society and Academia
 * Since policy and standards are not mapped to operational data, it is difficult for the ecosystem to translate knowledge to action to impact and access.
 
 \
-Government:\
-
+Government:
 
 * Inability to trace the impact and proper usage of grants and subsidies for sanitation
 * Limited state capacity in terms of budget, skilled human resources, tools, and technology render sanitation a highly complex problem for sanitation departments
