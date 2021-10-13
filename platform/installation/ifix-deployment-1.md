@@ -1,29 +1,29 @@
 # iFix-Deployment
 
-## Deploy IFix <a id="2-deploy-digit"></a>
+## Deploy IFix <a href="2-deploy-digit" id="2-deploy-digit"></a>
 
-Post infra setup \(Kubernetes Cluster\), the deployment has got 2 stages and 2 modes. We can see the stages first and then the modes.
+Post infra setup (Kubernetes Cluster), the deployment has got 2 stages and 2 modes. We can see the stages first and then the modes.
 
-### The 2 Stages <a id="the-2-stages"></a>
+### The 2 Stages <a href="the-2-stages" id="the-2-stages"></a>
 
 **Stage 1: Clone the DevOps** [**repo**](https://github.com/egovernments/iFix-DevOps/tree/ifix)**, choose your Ifix product branch.**
 
-**Prepare an &lt;**[**env.yaml**](https://github.com/egovernments/iFix-DevOps/blob/ifix/deploy-as-code/helm/environments/ifix-dev.yaml)**&gt; master config file, you can name this file as you wish which will have the following configurations, this env file need to be in line with your cluster name.**
+**Prepare an <**[**env.yaml**](https://github.com/egovernments/iFix-DevOps/blob/ifix/deploy-as-code/helm/environments/ifix-dev.yaml)**> master config file, you can name this file as you wish which will have the following configurations, this env file need to be in line with your cluster name.**
 
 * each service global, local env variables
-* credentials, secrets \(You need to encrypt using [sops](https://github.com/mozilla/sops#updatekeys-command) and create a**-secret.yaml** separately\)
-* Number of replicas/scale of individual services \(Depending on whether dev or prod\)
-* mdms, config repos \(Master Data, ULB, Tenant details, Users, etc\)
+* credentials, secrets (You need to encrypt using [sops](https://github.com/mozilla/sops#updatekeys-command) and create a**-secret.yaml** separately)
+* Number of replicas/scale of individual services (Depending on whether dev or prod)
+* mdms, config repos (Master Data, ULB, Tenant details, Users, etc)
 * sms g/w, email g/w, payment g/w
-* GMap key \(In case you are using Google Map services in your PGR, PT, TL, etc\)
+* GMap key (In case you are using Google Map services in your PGR, PT, TL, etc)
 * S3 Bucket for Filestore
 * URL/DNS on which the DIGIT will be exposed
 * SSL Certificate for the above URL
-* End-points configs \(Internal/external\)
+* End-points configs (Internal/external)
 
-**Stage 2: Run the digit\_setup deployment script and simply answer the questions that it asks.**
+**Stage 2: Run the digit_setup deployment script and simply answer the questions that it asks.**
 
-```text
+```
 cd iFix-DevOps/deploy-as-code/egov-deployer
 
 go run ifix_setup.go
@@ -45,4 +45,3 @@ Essentially, DIGIT deployment means that we need to generate Kubernetes manifest
 
 1. From local machine - whatever we are trying in this sample exercise so far. 
 2. Advanced: From CI/CD System like Jenkins - Depending on how you want to setup your CI/CD and the expertise the steps will vary, however [here](ifix-deployment-1.md) you can find how we have setup CI/CD on Jenkins and the pipelines are created automatically without any manual intervention.
-

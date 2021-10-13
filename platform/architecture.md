@@ -20,4 +20,3 @@ The platform consists of the following services
 ## Data Services
 
 * Fiscal Data Service
-

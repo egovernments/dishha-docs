@@ -18,4 +18,3 @@ Ensure traceability of waste _by_ enabling the ecosystem with
 * Code for Innovation
 
 _to_ move the habitats towards zero untreated waste
-

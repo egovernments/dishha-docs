@@ -15,10 +15,9 @@ description: Standards
 7. Project
 8. Fiscal Event
 
-## APIs \(v 0.1\)
+## APIs (v 0.1)
 
 1. Registry Services
    1. Government
 2. Business Services
    1. Post Fiscal Event
-

@@ -1,66 +1,66 @@
 # On AWS
 
-The [**Amazon Elastic Kubernetes Service \(EKS\)**](https://docs.aws.amazon.com/eks/latest/userguide/what-is-eks.html) is one of the AWS services for deploying, managing, and scaling any distributed and containerized workloads, here we can provision the EKS cluster on AWS from ground up and using an automated way \(infra-as-code\) using [**terraform**](https://www.terraform.io/intro/index.html) and then deploy the DIGIT Services config-as-code using [**Helm**](https://helm.sh/docs/).
+The [**Amazon Elastic Kubernetes Service (EKS)**](https://docs.aws.amazon.com/eks/latest/userguide/what-is-eks.html) is one of the AWS services for deploying, managing, and scaling any distributed and containerized workloads, here we can provision the EKS cluster on AWS from ground up and using an automated way (infra-as-code) using [**terraform**](https://www.terraform.io/intro/index.html) and then deploy the DIGIT Services config-as-code using [**Helm**](https://helm.sh/docs/).
 
-## Pre-read: <a id="pre-read"></a>
+## Pre-read: <a href="pre-read" id="pre-read"></a>
 
 * Know about EKS: [https://www.youtube.com/watch?v=SsUnPWp5ilc](https://www.youtube.com/watch?v=SsUnPWp5ilc)
 * Know what is terraform: [https://youtu.be/h970ZBgKINg](https://youtu.be/h970ZBgKINg)
 
-## Prerequisites <a id="Prerequisites"></a>
+## Prerequisites <a href="prerequisites" id="prerequisites"></a>
 
-1. ​[**AWS account**](https://portal.aws.amazon.com/billing/signup?nc2=h_ct&src=default&redirect_url=https%3A%2F%2Faws.amazon.com%2Fregistration-confirmation#/start) with the admin access to provision EKS Service, you can always subscribe to free AWS account to learn the basics and try, but there is a limit to [**what is offered as free**](https://aws.amazon.com/free/), for this demo you need to have a commercial subscription to the EKS service, if you want to try out for a day or two, it might cost you about Rs 500 - 1000. **\(Note: Post the Demo, for the internal folks, eGov will provide a 2-3 hrs time bound access to eGov's AWS account based on the request and available number of slots per day\)**
+1. ​[**AWS account**](https://portal.aws.amazon.com/billing/signup?nc2=h_ct\&src=default\&redirect_url=https%3A%2F%2Faws.amazon.com%2Fregistration-confirmation#/start) with the admin access to provision EKS Service, you can always subscribe to free AWS account to learn the basics and try, but there is a limit to [**what is offered as free**](https://aws.amazon.com/free/), for this demo you need to have a commercial subscription to the EKS service, if you want to try out for a day or two, it might cost you about Rs 500 - 1000. **(Note: Post the Demo, for the internal folks, eGov will provide a 2-3 hrs time bound access to eGov's AWS account based on the request and available number of slots per day)**
 2. Install [**kubectl**](https://kubernetes.io/docs/tasks/tools/) on your local machine that helps you interact with the kubernetes cluster
 3. Install [**Helm**](https://helm.sh/docs/intro/install/) that helps you package the services along with the configurations, envs, secrets, etc into a [**kubernetes manifests**](https://devspace.cloud/docs/cli/deployment/kubernetes-manifests/what-are-manifests)
-4. Install [**terraform**](https://releases.hashicorp.com/terraform/0.14.10/) version \(0.14.10\) for the Infra-as-code \(IaC\) to provision cloud resources as code and with desired resource graph and also it helps to destroy the cluster at one go.
+4. Install [**terraform**](https://releases.hashicorp.com/terraform/0.14.10/) version (0.14.10) for the Infra-as-code (IaC) to provision cloud resources as code and with desired resource graph and also it helps to destroy the cluster at one go.
 5. **​**[**Install AWS CLI**](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html) on your local machine so that you can use aws cli commands to provision and manage the cloud resources on your account.
 6. Install [**AWS IAM Authenticator**](https://docs.aws.amazon.com/eks/latest/userguide/install-aws-iam-authenticator.html) that helps you authenticate your connection from your local machine so that you should be able to deploy DIGIT services.
-7. Use the [**AWS IAM User**](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html) **credentials provided** for the Terraform \([**Infra-as-code**](https://devops.digit.org/devops-general/infra-as-code)\) to connect with your AWS account and provision the cloud resources.
+7.  Use the [**AWS IAM User**](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html) **credentials provided** for the Terraform ([**Infra-as-code**](https://devops.digit.org/devops-general/infra-as-code)) to connect with your AWS account and provision the cloud resources.
 
-   ​
+    ​
 
-   1. You'll get a **Secret Access Key** and **Access Key ID**. **Save them safely.**
-   2. Open the terminal and Run the following command you have already installed the AWS CLI and you have the credentials saved. \(Provide the credentials and you can leave the region and output format as blank\)
+    1. You'll get a **Secret Access Key** and **Access Key ID**. **Save them safely.**
+    2. Open the terminal and Run the following command you have already installed the AWS CLI and you have the credentials saved. (Provide the credentials and you can leave the region and output format as blank)
 
-   ```text
-   aws configure --profile egov-workshop-account 
+    ```
+    aws configure --profile egov-workshop-account 
 
-   AWS Access Key ID []:<Your access key>
-   AWS Secret Access Key []:<Your secret key>
-   Default region name []: ap-south-1
-   Default output format []: text
-   ```
+    AWS Access Key ID []:<Your access key>
+    AWS Secret Access Key []:<Your secret key>
+    Default region name []: ap-south-1
+    Default output format []: text
+    ```
 
-   1. The above will create the following file In your machine as /Users/.aws/credentials
+    1. The above will create the following file In your machine as /Users/.aws/credentials
 
-   ```text
-   [egov-test-account] 
-   aws_access_key_id=*********** 
-   aws_secret_access_key=****************************
-   ```
+    ```
+    [egov-test-account] 
+    aws_access_key_id=*********** 
+    aws_secret_access_key=****************************
+    ```
 
-Before we provision the cloud resources, we need to understand and be sure about what resources need to be provisioned by terraform to deploy DIGIT. The following picture shows the various key components. \(EKS, Worker Nodes, Postgress DB, EBS Volumes, Load Balancer\)
+Before we provision the cloud resources, we need to understand and be sure about what resources need to be provisioned by terraform to deploy DIGIT. The following picture shows the various key components. (EKS, Worker Nodes, Postgress DB, EBS Volumes, Load Balancer)
 
-![](https://gblobscdn.gitbook.com/assets%2F-MEQnEQWBZ6Gjip-3pEg%2F-Md1lfe6NwE0P1OdZlxg%2F-Md1rBSubx1ny2pReDeE%2Fimage.png?alt=media&token=45a75d9d-f45a-466c-9298-9c1db825cd8d)
+![](https://gblobscdn.gitbook.com/assets%2F-MEQnEQWBZ6Gjip-3pEg%2F-Md1lfe6NwE0P1OdZlxg%2F-Md1rBSubx1ny2pReDeE%2Fimage.png?alt=media\&token=45a75d9d-f45a-466c-9298-9c1db825cd8d)
 
 EKS Architecture for DIGIT Setup
 
 Considering the above deployment architecture, the following is the resource graph that we are going to provision using terraform in a standard way so that every time and for every env, it'll have the same infra.
 
-* EKS Control Plane \(Kubernetes Master\)
-* Work node group \(VMs with the estimated number of vCPUs, Memory\)
-* EBS Volumes \(Persistent Volumes\)
-* RDS \(PostGres\)
-* VPCs \(Private network\)
+* EKS Control Plane (Kubernetes Master)
+* Work node group (VMs with the estimated number of vCPUs, Memory)
+* EBS Volumes (Persistent Volumes)
+* RDS (PostGres)
+* VPCs (Private network)
 * Users to access, deploy and read-only
 
-## Understand the **Resource Graph in** Terraform script: <a id="Set-up-and-initialize-your-Terraform-workspace-1"></a>
+## Understand the **Resource Graph in** Terraform script: <a href="set-up-and-initialize-your-terraform-workspace-1" id="set-up-and-initialize-your-terraform-workspace-1"></a>
 
 * Ideally, one would write the terraform script from the scratch using this [doc](https://learn.hashicorp.com/collections/terraform/modules).
 * Here we have already written the terraform script that provisions the production-grade DIGIT Infra and can be customized with the specified configuration.
 * Let's Clone the [DIGIT-DevOps GitHub repo](https://github.com/egovernments/DIGIT-DevOps/tree/release) where the terraform script to provision EKS cluster is available and below is the structure of the files.
 
-```text
+```
 git clone --branch release https://github.com/egovernments/iFix-DevOps.git
 cd iFix-DevOps/infra-as-code/terraform
 
@@ -111,19 +111,18 @@ cd iFix-DevOps/infra-as-code/terraform
   * AutoScaling Group to launch worker instances
 * **Database**
   * Configuration in this directory creates set of RDS resources including DB instance, DB subnet group, and DB parameter group.
-* **Storage Module**
+*   **Storage Module**
 
-  * Configuration in this directory creates EBS volume and attaches it together.
+    * Configuration in this directory creates EBS volume and attaches it together.
 
-  ​
+    ​
+*   The following main.tf with create s3 bucket to store all the state of the execution to keep track.
 
-* The following main.tf with create s3 bucket to store all the state of the execution to keep track.
+    iFix-DevOps/Infra-as-code/terraform/sample-aws/remote-state
 
-  iFix-DevOps/Infra-as-code/terraform/sample-aws/remote-state
+    [**main.tf**](https://github.com/egovernments/DIGIT-DevOps/blob/release/infra-as-code/terraform/sample-aws/remote-state/main.tf)**​**
 
-  [**main.tf**](https://github.com/egovernments/DIGIT-DevOps/blob/release/infra-as-code/terraform/sample-aws/remote-state/main.tf)**​**
-
-```text
+```
 provider "aws" {
   region = "ap-south-1"
 }
@@ -155,13 +154,13 @@ resource "aws_dynamodb_table" "terraform_state_lock" {
 }
 ```
 
-1. The following main.tf contains the detailed resource definitions that need to be provisioned, please have a look at it.
+1.  The following main.tf contains the detailed resource definitions that need to be provisioned, please have a look at it.
 
-   Dir: iFix-DevOps/Infra-as-code/terraform/sample-aws
+    Dir: iFix-DevOps/Infra-as-code/terraform/sample-aws
 
-   [**main.tf**](https://github.com/egovernments/DIGIT-DevOps/blob/release/infra-as-code/terraform/sample-aws/main.tf)
+    [**main.tf**](https://github.com/egovernments/DIGIT-DevOps/blob/release/infra-as-code/terraform/sample-aws/main.tf)
 
-```text
+```
 # master configs, terraform state helps to maintain the flow of the execution
 terraform {
   backend "s3" {
@@ -349,11 +348,11 @@ module "kafka" {
 }
 ```
 
-## Custom variables/configurations: <a id="Set-up-an-environment"></a>
+## Custom variables/configurations: <a href="set-up-an-environment" id="set-up-an-environment"></a>
 
 You can define your configurations in **variables.tf** and provide the env specific cloud requirements so that using the same terraform template you can customize the configurations.
 
-```text
+```
 ├── iFix-dev
 │   ├── main.tf 
 │   ├── outputs.tf
@@ -367,7 +366,7 @@ Following are the values that you need to mention in the following files, the bl
 
 **​**[**variables.tf**](https://github.com/egovernments/DIGIT-DevOps/blob/release/infra-as-code/terraform/sample-aws/variables.tf) ​
 
-```text
+```
 ## Add Cluster Name
 variable "cluster_name" {
   default = "<Desired Cluster name>"  #eg: my-digit-eks
@@ -423,13 +422,13 @@ variable "db_password" {}
 
 ​
 
-### **Important: Create your own keybase key before you run the terraform** <a id="important-create-your-own-keybase-key-before-you-run-the-terraform"></a>
+### **Important: Create your own keybase key before you run the terraform** <a href="important-create-your-own-keybase-key-before-you-run-the-terraform" id="important-create-your-own-keybase-key-before-you-run-the-terraform"></a>
 
-* Use this URL [https://keybase.io/](https://keybase.io/) to [create your own PGP key](https://pgpkeygen.com/), this will create both public and private key in your machine, upload the public key into the [keybase](https://keybase.io/) account that you have just created, and give a name to it and ensure that you mention that in your terraform. This allows to encrypt all the sensitive information.
-  * Example user keybase user in eGov case is "_egovterraform_" needs to be created and has to uploaded his public key here - [https://keybase.io/egovterraform/pgp\_keys.asc](https://keybase.io/egovterraform/pgp_keys.asc)​
+* Use this URL [https://keybase.io/](https://keybase.io) to [create your own PGP key](https://pgpkeygen.com), this will create both public and private key in your machine, upload the public key into the [keybase](https://keybase.io) account that you have just created, and give a name to it and ensure that you mention that in your terraform. This allows to encrypt all the sensitive information.
+  * Example user keybase user in eGov case is "_egovterraform_" needs to be created and has to uploaded his public key here - [https://keybase.io/egovterraform/pgp_keys.asc](https://keybase.io/egovterraform/pgp_keys.asc)​
   * you can use this [portal](https://8gwifi.org/pgpencdec.jsp) to Decrypt your secret key. To decrypt PGP Message, Upload the PGP Message, PGP Private Key and Passphrase.
 
-## Run terraform <a id="run-terraform"></a>
+## Run terraform <a href="run-terraform" id="run-terraform"></a>
 
 Now that we know what the terraform script does, the resources graph that it provisions and what custom values should be given with respect to your env.
 
@@ -437,7 +436,7 @@ Let's begin to run the terraform scripts to provision infra required to Deploy D
 
 1. First CD into the following directory and run the following command 1-by-1 and watch the output closely.
 
-```text
+```
 cd DIGIT-DevOps/infra-as-code/terraform/sample-aws/remote-state
 terraform init
 terraform plan
@@ -454,14 +453,14 @@ Upon Successful execution following resources gets created which can be verified
 
 * **s3 bucket:** to store terraform state.
 * **Network:** VPC, security groups.
-* **IAM users auth:** using keybase to create admin, deployer, the user. Use this URL [https://keybase.io/](https://keybase.io/) to [create your own PGP key](https://pgpkeygen.com/), this will create both public and private key in your machine, upload the public key into the [keybase](https://keybase.io/) account that you have just created, and give a name to it and ensure that you mention that in your terraform. This allows to encrypt all the sensitive information.
-  * Example user keybase user in eGov case is "_egovterraform_" needs to be created and has to uploaded his public key here - [https://keybase.io/egovterraform/pgp\_keys.asc](https://keybase.io/egovterraform/pgp_keys.asc)​
+* **IAM users auth:** using keybase to create admin, deployer, the user. Use this URL [https://keybase.io/](https://keybase.io) to [create your own PGP key](https://pgpkeygen.com), this will create both public and private key in your machine, upload the public key into the [keybase](https://keybase.io) account that you have just created, and give a name to it and ensure that you mention that in your terraform. This allows to encrypt all the sensitive information.
+  * Example user keybase user in eGov case is "_egovterraform_" needs to be created and has to uploaded his public key here - [https://keybase.io/egovterraform/pgp_keys.asc](https://keybase.io/egovterraform/pgp_keys.asc)​
   * you can use this [portal](https://8gwifi.org/pgpencdec.jsp) to Decrypt your secret key. To decrypt PGP Message, Upload the PGP Message, PGP Private Key and Passphrase.
-* **EKS cluster:** with master\(s\) & worker node\(s\).
-* **Storage\(s\):** for es-master, es-data-v1, es-master-infra, es-data-infra-v1, zookeeper, kafka, kafka-infra.
+* **EKS cluster:** with master(s) & worker node(s).
+* **Storage(s):** for es-master, es-data-v1, es-master-infra, es-data-infra-v1, zookeeper, kafka, kafka-infra.
 * Use this link to [get the kubeconfig from EKS](https://docs.aws.amazon.com/eks/latest/userguide/create-kubeconfig.html) to get the kubeconfig file and being able to connect to the cluster from your local machine so that you should be able to deploy DIGIT services to the cluster.
 
-```text
+```
 aws sts get-caller-identity
 
 # Run the below command and give the respective region-code and the cluster name
@@ -470,7 +469,7 @@ aws eks --region <region-code> update-kubeconfig --name <cluster_name>
 
 1. Finally, Verify that you are able to connect to the cluster by running the following command
 
-```text
+```
 kubectl config use-context <your cluster name>
 
 kubectl get nodes
@@ -483,4 +482,3 @@ ip-192-168-xx-4.ap-south-1.compute.internal   Ready  45d   v1.15.10-eks-bac369  
 ```
 
 Whola! All set and now you can go with Deploy Product..
-

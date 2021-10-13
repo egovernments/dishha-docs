@@ -8,4 +8,3 @@ The platform is being built as a Public Digital Good and follows a key set of de
 * Privacy and Security
 * Performance at Scale
 * Open
-
