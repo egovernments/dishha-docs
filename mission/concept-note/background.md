@@ -36,7 +36,7 @@ There is a general concern among citizens about their health and pollution of th
 
 ![](../../.gitbook/assets/9.png)
 
-Desludging Operators (DSOs):
+Desludging Operators (DSOs)
 
 * Lack of proper access to the containment systems adds time-cost to service.
 * Treatment plants are located far from the city which makes safe dumping unviable.
@@ -44,13 +44,12 @@ Desludging Operators (DSOs):
 * Operations remain inefficient without timely and useful information for service delivery (location, house width, tentative volume).
 * The working conditions are highly risky, provisions for personal protection equipment and emergency healthcare services are rare and sparse.
 
-\
-Citizens:
+Citizens
 
 * It is difficult to identify and book desludging services and service delivery is not reliable.
 * Low-income households are denied service since they are not able to afford the full cost.
 
-City Managers, Centre/State Govt:
+City Managers, Centre/State Govt
 
 * Difficult to regulate the market for safe dumping without compromising service delivery.
 * There is no clear and actionable information in terms of safe or unsafe dumping of FS.
@@ -60,14 +59,13 @@ City Managers, Centre/State Govt:
 
 ![](../../.gitbook/assets/10.png)
 
-City Managers, Centre/State Govt:
+City Managers, Centre/State Govt
 
 * Difficult to regulate the market for across various stages of construction and operations
 * Operational data of the treatment plant and process is often recorded offline and used for post-facto auditing. There is a pervasive lack of actionable information.
 * Lack of rational pricing policies, comprehensive service benchmarks and infrastructure standards, contracting and monitoring tools hamper corrective action.
 
-\
-Plant Operators:
+Plant Operators
 
 * The supply of desludging load varies in an unreliable and unpredictable manner. This variance shocks in the treatment capacity, short-circuits the treatment process, and over a long term leads to the failure of the system.\
 
@@ -83,8 +81,7 @@ Civil Society and Academia
 * Researchers struggle without the availability of systemic data to create new knowledge around the failures, risks, and opportunities to give recommendations for improvement.
 * Since policy and standards are not mapped to operational data, it is difficult for the ecosystem to translate knowledge to action to impact and access.
 
-\
-Government:
+Government
 
 * Inability to trace the impact and proper usage of grants and subsidies for sanitation
 * Limited state capacity in terms of budget, skilled human resources, tools, and technology render sanitation a highly complex problem for sanitation departments

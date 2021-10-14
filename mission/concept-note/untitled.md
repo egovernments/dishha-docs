@@ -1,5 +1,7 @@
 # Background and Landscape
 
+![](../../.gitbook/assets/0.png)
+
 ### What is Sanitation?
 
 National Urban Sanitation Policy (NUSP, 2008) defines Sanitation as “safe management of human excreta, including safe confinement treatment, disposal, and associated hygiene-related practices”. While the policy pertains to human excreta, it recognizes that integral solutions need to take account of other elements of environmental sanitation, i.e. solid waste management; generation of industrial and other hazardous wastes; drainage; as also the management of drinking water supply.\[[1](http://mohua.gov.in/upload/uploadfiles/files/NUSP\_0.pdf)]
