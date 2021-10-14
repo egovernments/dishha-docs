@@ -7,7 +7,7 @@
     * [Background and Landscape](mission/concept-note/untitled.md)
     * [FSSM - a complex system](mission/concept-note/background.md)
     * [Pivotal Problems](mission/concept-note/approach/README.md)
-      * [Page 1](mission/concept-note/approach/page-1.md)
+      * [Page 1](mission/concept-note/approach/page-1-1.md)
       * [Mission - Envisioning new way of Sanitation](mission/concept-note/approach/mission-envisioning-new-way-of-sanitation.md)
     * [Page 1](mission/concept-note/page-1-1.md)
   * [Page 1](mission/page-1.md)
