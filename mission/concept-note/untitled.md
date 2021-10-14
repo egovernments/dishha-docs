@@ -4,7 +4,7 @@
 
 National Urban Sanitation Policy (NUSP, 2008) defines Sanitation as “safe management of human excreta, including safe confinement treatment, disposal, and associated hygiene-related practices”. While the policy pertains to human excreta, it recognizes that integral solutions need to take account of other elements of environmental sanitation, i.e. solid waste management; generation of industrial and other hazardous wastes; drainage; as also the management of drinking water supply.\[[1](http://mohua.gov.in/upload/uploadfiles/files/NUSP\_0.pdf)]
 
-###  Why Sanitation Matters? 
+### Why Sanitation Matters? 
 
 _“_Everyone has the right to life, liberty, and security of person”; Article 21: the fundamental right to life in the Indian constitution embodies the same spirit as the Universal Declaration of Human Rights. If life and the prospect of a healthy and secure life is actually a right of every human being, then lack of safe sanitation is a barrier in achieving this goal. Every year three lakh Indian children die due to Diarrhoea, a preventable disease that happens due to contamination in food and water\[[1](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4367049/#ref2)]. The same disease is behind the stunted growth of 4 crore Indian children\[[2](https://www.unicef.org/india/what-we-do/stop-stunting)]. A lack of safe sanitation is attributed as a major cause of both, Diarrhoea and Stunting. Poor sanitation denies our fellow citizens the right to clean drinking water. Around 80% of India’s water is severely polluted because people dump raw sewage, silt, and garbage into the country’s rivers and lakes. The water is undrinkable and people rely on illegal and expensive sources of water. [\[3\]](https://www.borgenmagazine.com/water-pollution-in-india/) While our constitution embraces that “All human beings are born free and equal in dignity and rights”, poor sanitation disproportionately impacts vulnerable communities.
 
@@ -24,9 +24,7 @@ According to gross estimates of the Indian Central Pollution Control Board, our 
 
 F most of the toilets in the country are not connected to an underground sewage network. Only 50% of the population used toilets in 2011, and 75% of these toilets were connected to an on-site pit or septic tank where the fecal matter remains contained for 3 to 5 years. These on-site systems are not properly managed, close to 70% of fecal matter ends up contaminating the environment due to poor construction and/or disposal practices. An analysis of Census 2011 shows that overall 93% of faecal matter entered the environment without treatment.
 
-####
-
-What is FSSM?
+### What is FSSM?
 
 ![Credits: NITI](../../.gitbook/assets/3.png)
 
@@ -36,7 +34,7 @@ What is FSSM?
 The waste we flush down the toilet does not always go into a sewer. Approximately 70% of the households in India have toilets connected to septic tanks or soak pits[\[8\]](https://smartnet.niua.org/sites/default/files/resources/feacal_sludge_menagement_leaf.pdf) , technically known as on-site containment systems. They accumulate and store faecal matter over a long period. In sewers, the fecal matter travels daily with a lot of water through long concrete pipes. But in the case of on-site systems, it stays stored for about 3-5 years. Once the storage is full, the waste is emptied and transported to the treatment plant through vacuum trucks. The end-to-end value chain of safe storage, collection, transport, treatment, and end-use or disposal of faecal matter is called Fecal Sludge and Septage management or FSSM. ‘Faecal Sludge’ and ’Septage’ are used to describe faecal matter in a specific physical and chemical\
 state after prolonged storage.
 
-#### Why does FSSM matter - It is the way forward in Sanitation
+### Why does FSSM matter - It is the way forward in Sanitation
 
 \
 FSSM has emerged as a cost-efficient population scale alternative to the networked sewer, which has been the traditional method of wastewater management.\

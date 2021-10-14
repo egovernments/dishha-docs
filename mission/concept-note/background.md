@@ -1,12 +1,12 @@
 # FSSM - a complex system
 
-
-
 Our current awareness and understanding of the problems in septage management are based on our interactions with ecosystem leaders and leading reports, whitepapers, and published materials. We are deeply aware that FSSM systems have highly interdependent parts. Each stage of the FSSM value chain impacts how effectively the next stage functions.
 
 For instance, if the septic tanks do not have proper access, they will add to the cost of emptying, adding a time cost burden on the desludging operators (DSOs). Similarly, it becomes unviable for the DSOs to dump the waste at the treatment plant if it is far from the city which is often the case. Treatment plants are located as per administrative or financial concerns; locations where public land is available or where surroundings do not have residences. This shows how merely one factor can impact the final sanitation outcome if not considered comprehensively. If the location is not conducive for DSOs to supply the waste to the plant or the time and distance are not factored into the cost, it will remain profitable to dump the waste in the open and go for the next service. The delivery of safe sanitation requires the infrastructure and services to work in tune with each other. Calibration in the different parts of the value chain is critical to achieving functional sanitation systems.
 
 While the linear sanitation value chain gives a lucid frame to understand the ideal flow of FS, it doesn’t capture the variety of stakeholders in the interactions that control and influence the current effectiveness of sanitation systems.
+
+### Systems Map
 
 In the following section, we use a systems mapping approach to delineate the various factors and interactions within the sanitation value chain. We will explore various systemic challenges at each part of the value chain which finally culminate into the poor sanitation outcomes.
 
@@ -14,7 +14,7 @@ In the following section, we use a systems mapping approach to delineate the var
 
 ![](../../.gitbook/assets/7.png)
 
-**Part 1 - Toilets and Containment Units**
+#### Part 1 - Toilets and Containment Units
 
 ![](../../.gitbook/assets/8.png)
 
@@ -32,7 +32,7 @@ Citizens
 
 There is a general concern among citizens about their health and pollution of the environment, but they are unaware of the impacts of improper construction of toilets and containment tanks. Owing to this lack of awareness or constraints of affordability and space, citizens influence the masons to construct containment units that do not follow the technical standards. It is difficult to identify trained masons and the procurement of service happens through offline social networks and word of mouth.
 
-**Part 2 - Emptying and Transport**
+#### Part 2 - Emptying and Transport
 
 ![](../../.gitbook/assets/9.png)
 
@@ -56,7 +56,7 @@ City Managers, Centre/State Govt:
 * There is no clear and actionable information in terms of safe or unsafe dumping of FS.
 * Lack of necessary pricing policies, service, and infra standards, licensing processes, and contracting and monitoring capacity limit the ability of decision-makers to take action.
 
-**Part 3 - Treatment**
+#### Part 3 - Treatment
 
 ![](../../.gitbook/assets/10.png)
 
@@ -74,7 +74,7 @@ Plant Operators:
 * Treatment plant management and maintenance is difficult and costly, the payments are often not linked to performance. The performance is not directly causally linked to the environmental impact.
 * Operations are not monitored to facilitate preventive action within the plant, and lack any binding linkages with standard operating procedures and service level agreements.
 
-**Part 4 - Ecosystem**
+#### Part 4 - Ecosystem
 
 ![](../../.gitbook/assets/11.png)
 
