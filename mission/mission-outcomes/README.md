@@ -1,10 +1,10 @@
-# Mission and Outcomes
+# Mission Outcomes
 
-![eGov's Mission Statement](<../../../../.gitbook/assets/Mission Statement v1 (1).png>)
+![](<../../.gitbook/assets/Mission Statement v1 (1).png>)
 
 #### Pillars and Impact
 
-Mission will holistically look at the Pillars of Sanitation and the Impact across the pillars
+The Mission will holistically look at the Pillars of Sanitation and the Impact across the pillars
 
 |     Pillars of Sanitation     |                                                  Impact                                                  |
 | :---------------------------: | :------------------------------------------------------------------------------------------------------: |
@@ -17,7 +17,7 @@ Mission will holistically look at the Pillars of Sanitation and the Impact acros
 
 ### Addressing Pivotal Problems in FSSM
 
-
+Our approach to addressing [pivotal problems](../concept-note/approach.md):
 
 **Absence of well-defined standards for sanitation**
 
@@ -50,7 +50,7 @@ The digital infrastructure will enable to answer questions like “how did it en
 
 ### Outcomes
 
-Keeping the pillars of sanitation and the areas of impact in mind, Mission will focus on driving these outcomes
+While addressing the pivotal problems, Mission will focus on driving these outcomes:
 
 | Sanitation Mission Outcomes                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -59,22 +59,3 @@ Keeping the pillars of sanitation and the areas of impact in mind, Mission will 
 | <p><strong>Active tracking and management of FSSM operations to drive efficiency, efficacy, and transparency </strong></p><p></p><p>Tracking and managing faecal sludge through the lifecycle for planning, optimizing usage of physical infrastructure and improving regulations and processes to enable compliance.</p>                                                                                                                         |
 | <p><strong>Efficient marketplaces across the sanitation value chain </strong></p><p></p><p>Effective matching of the supply and demand, operational data to inform rationalized pricing, and sustainability by leveraging data and services to refine operations.</p>                                                                                                                                                                             |
 | <p><strong>Data-driven decision-making and policy design </strong></p><p></p><p>Access to operational and systemic data in anonymized and aggregated forms for senior decision-makers at all levels of government, as well as for key stakeholders and influencers in the FSM ecosystem.</p>                                                                                                                                                      |
-
-****
-
-****
-
-****
-
-
-
-
-
-
-
-
-
-
-
-
-

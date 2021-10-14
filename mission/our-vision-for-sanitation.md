@@ -1,14 +1,14 @@
-# Envisioning a new way of Sanitation
+# Our Vision for Sanitation
 
 ### _<mark style="color:blue;">**Zero deaths, disease, and environmental contamination resulting from poor sanitation**</mark>_ _****_
 
-The Sanitation Mission at eGov aims to make this vision a reality for every citizen across India. We believe that the core of the sanitation problem is that current systems fail to deliver against this vision and hence the system itself needs to be progressively reformed to achieve this vision.
+**The Sanitation Mission at eGov** aims to make this vision a reality for every citizen across India. We believe that the core of the sanitation problem is that current systems fail to deliver against this vision and hence the system itself needs to be progressively reformed to achieve this vision.
 
-#### Why Now? - A renewed focus on Health and Sanitation
+### Why Now? - A renewed focus on Health and Sanitation
 
 There is high energy in the sanitation ecosystem right now, which has received positive attention in line with the renewed government focus on health in face of the COVID-19 pandemic. In Budget 2021, Health & Wellbeing was clearly the most important focus among the six pillars of the Budget outlined by the finance minister. She announced ₹2.83 lakh crore for the health and wellness sector, an increase of 137% over last year. Similar developments were seen for the sanitation sector such as the announcement of dedicated funding to SBM Urban - 2.0 with a clear focus on complete FSSM in the SBM-Urban and dedicated funding of ₹ 1.41 lakh crore. The development of national and state-level sanitation policies and programs. With over 700+ Faecal Sludge Treatment Plants (FSTPs) being committed, (of which 220 are under construction and 150 are operational), along with commitments from states towards the construction of FSTPs, sanitation has achieved a definitive momentum.
 
-#### Why us? - Impact at Scale and Speed
+### Why us? - Impact at Scale and Speed
 
 |                                                              3 Layers of eGov's Operating Model                                                              |
 | :----------------------------------------------------------------------------------------------------------------------------------------------------------: |
