@@ -1,42 +1,6 @@
-# Information Model
+---
+description: Work in progress
+---
 
-]Government
+# Information Models
 
-| Field | Type   | Description                                           |
-| ----- | ------ | ----------------------------------------------------- |
-| name  | String | Name of the Government - e.g. India, Nigeria, Punjab, |
-
-Department
-
-| Field | Type   | Description                                                             |
-| ----- | ------ | ----------------------------------------------------------------------- |
-| name  | String | Name of the Department - e.g. Department of Water Supply and Sanitation |
-
-Fund
-
-| Field | Type   | Description |
-| ----- | ------ | ----------- |
-| name  | String | Own Source  |
-
-Location
-
-| Field | Type   | Description                                                   |
-| ----- | ------ | ------------------------------------------------------------- |
-| name  | String | Name of the Location - e.g. Country, State, District, Village |
-
-Chart of Account
-
-| Field | Type   | Description         |
-| ----- | ------ | ------------------- |
-| name  | String | Name of the Account |
-|       |        |                     |
-
-Program
-
-| Field | Type   | Description                                   |
-| ----- | ------ | --------------------------------------------- |
-| name  | String | Name of the Program - e.g. Jal Jeevan Mission |
-
-| Field | Type   | Description                                           |
-| ----- | ------ | ----------------------------------------------------- |
-| name  | String | Name of the Project - e.g. Kartarpur Sahib Water Tank |
