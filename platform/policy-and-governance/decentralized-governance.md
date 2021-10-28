@@ -1,4 +1,4 @@
-# Mission Timeline
+# Decentralized Governance
 
 {% hint style="danger" %}
 Work in progress
