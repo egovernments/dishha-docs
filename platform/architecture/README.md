@@ -1,4 +1,7 @@
-# Platform Goals
+---
+description: Work in progress
+---
 
-## Key Indicators
+# Architecture
 
+##
