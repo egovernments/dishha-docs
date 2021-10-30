@@ -17,18 +17,18 @@ The Mission will holistically look at the Pillars of Sanitation and the Impact a
 
 ### Addressing Pivotal Problems in FSSM
 
-Our approach to addressing [pivotal problems](../concept-note/approach.md):
+Our approach to addressing [pivotal problems](../fssm/pivotal-problems.md):
 
 **Absence of well-defined standards for sanitation**
 
-Engaging with the ecosystem, the mission will aim to devise standards and enable compliance for infrastructure and processes in the waste value chain. 
+Engaging with the ecosystem, the mission will aim to devise standards and enable compliance for infrastructure and processes in the waste value chain.&#x20;
 
-* Standards of physical infrastructure: The platform will incorporate existing standards and set new standards in the infrastructure so that any digital solution can easily adhere to the standards that cause an impact on the sanitation sector 
+* Standards of physical infrastructure: The platform will incorporate existing standards and set new standards in the infrastructure so that any digital solution can easily adhere to the standards that cause an impact on the sanitation sector&#x20;
 * Standard processes and contracts: Within the area of control, the platform will have built-in templatized workflows that can enable ease of compliance by deskilling and training. Besides, the platform also enables recording skill and certification levels of actors
 
 **Broken chain of custody from waste generation to reuse**
 
-The digital infrastructure will enable to answer questions like “how did it end up here?“, “what is the chain of custody of this waste unit?“, “how much ended up in the environment?“, etc. 
+The digital infrastructure will enable to answer questions like “how did it end up here?“, “what is the chain of custody of this waste unit?“, “how much ended up in the environment?“, etc.&#x20;
 
 * The platform will assign a unique identifier to entities and people along the waste value chain. It will make provisions in the processes to capture waste information that enables traceability along its journey through the value chain.
 * In addition to making provisions to capture information throughout the process, the platform will also strive towards the adoption of reference applications and enabling extended solutions to create the data required for the reliable chain of custody of faecal sludge
@@ -40,7 +40,7 @@ The digital infrastructure will enable to answer questions like “how did it en
 
 **India is not poised to convert waste to value, yet**
 
-* The platform will capture waste transaction data and enable ensuring the quality of treated waste materials. This will help to understand waste demand and supply. 
+* The platform will capture waste transaction data and enable ensuring the quality of treated waste materials. This will help to understand waste demand and supply.&#x20;
 * Besides, the platform will orchestrate matching of demand and supply, setting standards for treated waste, and defining data-driven policies to enable moving towards sustainability.
 
 **Stakeholder behaviour is often misaligned with safe sanitation practices**
