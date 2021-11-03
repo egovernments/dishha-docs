@@ -11,7 +11,7 @@
   * [Operationalization Strategy](mission/operationalization-strategy.md)
   * [Mission Timeline](mission/mission-timeline.md)
   * [Glossary](mission/glossary.md)
-* [Sanitatiom Platform](platform/README.md)
+* [Sanitation Platform](platform/README.md)
   * [Introduction](platform/introduction.md)
   * [Indicators](platform/indicators.md)
   * [Tracing the Shit Flow](platform/tracing-the-shit-flow.md)
