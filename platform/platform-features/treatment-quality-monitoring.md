@@ -12,11 +12,42 @@ Real-time monitoring using IoT sensors enables the stakeholders to be informed a
 
 #### Effluent Monitoring
 
-The parameters
+The list of mandatory parameters enabled on the platform are:
+
+1. pH
+2. Temperature
+3. Moisture
+4. TSS (Total Suspended Solids)
+5. Faecal Coliform
+6. BOD (Biological Oxygen Demand)
 
 {% hint style="info" %}
-To know more about the quality parameters DISHHA supports, please refer [designated Best Use of Water Quality Criteria - CPCB](https://cpcb.nic.in/wqm/Designated\_Best\_Use\_Water\_Quality\_Criteria.pdf)
+To know more about the quality parameters DISHHA supports, please refer to the [Designated Best Use of Water Quality Criteria - CPCB](https://cpcb.nic.in/wqm/Designated\_Best\_Use\_Water\_Quality\_Criteria.pdf)
 {% endhint %}
+
+
+
+{% swagger method="get" path="effluent_quality" baseUrl="/" summary="" %}
+{% swagger-description %}
+
+{% endswagger-description %}
+
+{% swagger-parameter in="query" %}
+
+{% endswagger-parameter %}
+{% endswagger %}
+
+{% swagger method="put" path="" baseUrl="/effluent_quality" summary="" %}
+{% swagger-description %}
+
+{% endswagger-description %}
+
+{% swagger-parameter in="query" %}
+
+{% endswagger-parameter %}
+{% endswagger %}
+
+####
 
 #### Biosolids Monitoring
 
@@ -26,14 +57,18 @@ While effluent monitoring using IoT sensors has been around for a few years now,
 Besides, the biosolids' quality parameters for human waste are not standardized.
 {% endhint %}
 
-To design for future, we enable the stakeholders to know about the important
+To design for the future, we enable the stakeholders to know about the important
 
 ### On-boarding&#x20;
 
 #### Sensor Support
 
+Coming soon :hourglass:
+
 #### One-time Configuration
 
-
+1. Treatment Technology
+2. Frequency of Update
+3.
 
 ### Dashboards
