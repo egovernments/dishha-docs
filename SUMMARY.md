@@ -19,7 +19,6 @@
   * [Platform Features](platform/platform-features/README.md)
     * [Desludging Service](platform/platform-features/desludging-service.md)
     * [Vendor Management](platform/platform-features/vendor-management.md)
-    * [Notifications](platform/platform-features/notifications.md)
     * [Treatment Quality Monitoring](platform/platform-features/treatment-quality-monitoring.md)
     * [Feedback](platform/platform-features/feedback.md)
     * [Fleet Tracking](platform/platform-features/fleet-tracking.md)

@@ -6,6 +6,8 @@ With limited data available for STPs and FSTPs, only [578 of 1093 operational ST
 
 To ensure compliance of treatment at STPs and FSTPs, it is important to know the effluent and biosolids quality on a regular and, preferably, high-frequency basis so that any deviation from the desirable state can be addressed quickly.
 
+The quality data can be collected through one or more means. For instance, laboratory tests, manual entry through calibration tools, IoT sensors are different sources for the data. Further, laboratory tests,&#x20;
+
 ### Real-time Monitoring
 
 Real-time monitoring using IoT sensors enables the stakeholders to be informed about the compliance status of the treatment plants. The sensors embedded at several locations in the treatment flow help to drill down the compliance problem to a particular step in treatment technology.
