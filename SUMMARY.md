@@ -14,7 +14,7 @@
 * [Sanitation Platform](platform/README.md)
   * [Introduction](platform/introduction.md)
   * [Indicators](platform/indicators.md)
-  * [Tracing the Shit Flow](platform/tracing-the-shit-flow.md)
+  * [Shit Flow Interactions](platform/shit-flow-interactions.md)
   * [Personas](platform/personas.md)
   * [Platform Features](platform/platform-features/README.md)
     * [Desludging Service](platform/platform-features/desludging-service.md)
