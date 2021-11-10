@@ -6,7 +6,7 @@ With limited data available for STPs and FSTPs, only [578 of 1093 operational ST
 
 To ensure compliance of treatment at STPs and FSTPs, it is important to know the effluent and biosolids quality on a regular and, preferably, high-frequency basis so that any deviation from the desirable state can be addressed quickly.
 
-The quality data can be collected through one or more means. For instance, laboratory tests, manual entry through calibration tools, IoT sensors are different sources for the data. Further, laboratory tests,&#x20;
+The quality data can be collected through one or more means. For instance, laboratory tests, manual entry through calibration tools, IoT sensors are different sources for the data.&#x20;
 
 ### Real-time Monitoring
 
@@ -16,12 +16,14 @@ Real-time monitoring using IoT sensors enables the stakeholders to be informed a
 
 The list of mandatory parameters enabled on the platform are:
 
-1. pH
+1. pH&#x20;
 2. Temperature
-3. Moisture
-4. TSS (Total Suspended Solids)
-5. Faecal Coliform
-6. BOD (Biological Oxygen Demand)
+3. TSS
+4. BOD
+5. COD
+6. Faecal Coliform
+7. Hg and Compounds Sb + As + Pb + Cr + Co + Cu + Mn + Ni + V + their compounds
+8. Total dioxins and furans
 
 {% hint style="info" %}
 To know more about the quality parameters DISHHA supports, please refer to the [Designated Best Use of Water Quality Criteria - CPCB](https://cpcb.nic.in/wqm/Designated\_Best\_Use\_Water\_Quality\_Criteria.pdf)
@@ -53,6 +55,16 @@ To know more about the quality parameters DISHHA supports, please refer to the [
 
 #### Biosolids Monitoring
 
+Parameters:
+
+1. pH
+2. Temperature
+3. BOD
+4. COD
+5. Faecal Coliform
+6. Helminths
+7. Heavy Metal Asbestos
+
 {% hint style="warning" %}
 While effluent monitoring using IoT sensors has been around for a few years now, biosolids quality monitoring using IoT is still an upcoming development.
 
@@ -71,6 +83,7 @@ Coming soon :hourglass:
 
 1. Treatment Technology
 2. Frequency of Update
-3.
+
+
 
 ### Dashboards
