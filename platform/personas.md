@@ -16,6 +16,10 @@
 
 ![](<../.gitbook/assets/Bhubaneshwar- Treatment Operator.jpeg>)
 
+### Citizen
+
+Coming soon...
+
 {% hint style="info" %}
 All the information is published with the consent of the stakeholders
 {% endhint %}
