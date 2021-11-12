@@ -1,4 +1,0 @@
-# Platform Goals
-
-## Key Indicators
-
