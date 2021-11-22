@@ -77,6 +77,8 @@ Based on SLA and the parameter, the frequency of measuring can differ from few m
 
 #### Process Flow
 
+![](<../../.gitbook/assets/Treatment Monitoring (1).png>)
+
 ### On-boarding&#x20;
 
 #### One-time Configuration
