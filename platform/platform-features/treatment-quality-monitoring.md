@@ -36,7 +36,7 @@ Note: There are no IoT-based sensors for measuring Faecal Coliform directly.
 Regulations for biosolids are unclear - we currently don't have a definitive GoI-notified standard for faecal sludge-derived biosolids. Still, from what we know, a draft has been in the works for a few months. In the interim, the Advisory and Primer on FSSM (along with the CPHEEO Manual) recommended US EPA Class A Biosolids criteria (looking at E Coli/F Coli, Salmonella, Helminth Eggs). The National Policy on FSSM issued after all these three makes mention of SWM Rules, 2016, as the guiding document for processed sludge quality
 {% endhint %}
 
-To design for the future, we enable the stakeholders to know about the important parameters based on the policy and treatment type they select during one-time setup. The list of parameters look like:
+To design for the future, we enable the stakeholders to know about the important parameters based on the policy and treatment type they select during a one-time setup. The list of parameters look like this:
 
 | Parameter                                        | Value Range                                                                | Policy                     |
 | ------------------------------------------------ | -------------------------------------------------------------------------- | -------------------------- |
@@ -68,16 +68,42 @@ Reference: [Plain English Guide Part 503 Biosolids Rule](https://www.epa.gov/sit
 {% endhint %}
 
 {% hint style="warning" %}
-Of all these parameters, pH and Moisture can be monitored through IoT sensors. However, biosolids quality monitoring for other parameters using IoT is yet to be explored by the market.
+Of all these parameters, only pH and Moisture can be monitored through IoT sensors. However, biosolids quality monitoring for other parameters using IoT is yet to be explored.
 {% endhint %}
 
 #### Frequency of Measurement
 
-Based on SLA and the parameter, the frequency of measuring can differ from few minutes (if IoT) to several days.&#x20;
+Based on SLA and the parameter, the frequency of measuring can differ from a few minutes (if IoT) to several days.&#x20;
 
 #### Process Flow
 
-![](<../../.gitbook/assets/Treatment Monitoring (1).png>)
+To understand the context of treatment monitoring, we take a look at what happens on the ground with various monitoring avenues (lab reports, sensors) in play. We assume that FSTPs have at least one of the monitoring mechanisms.
+
+![Process flow for treatment monitoring](<../../.gitbook/assets/Screenshot 2021-11-23 at 9.25.42 AM.png>)
+
+### Platform Scope
+
+#### Summary
+
+Real-time monitoring using IoT sensors OR Laboratory testing enables the stakeholders to be informed about the compliance status of the treatment plants. The samples from several locations in the treatment flow help to drill down the compliance problem to a particular step in treatment technology. While platform enables capturing treatment monitoring data by defining the required registries and services, the exemplar application provides below functions:-&#x20;
+
+* Create Data:&#x20;
+  * Manual input to enter readings for quality parameters using calibration tools or laboratory reports
+  * IoT input for monitoring parameters
+* Read Data:
+  * Visualization to analyze the quality over a period of time
+* Modify Data:
+  * We do not allow modification of quality parameters unless it is a manual mistake
+* Delete Data:
+  * We do not delete the data
+
+#### Data Layer
+
+Coming soon :hourglass:
+
+#### Services Layer
+
+Coming soon :hourglass:
 
 ### On-boarding&#x20;
 
@@ -91,6 +117,5 @@ Based on SLA and the parameter, the frequency of measuring can differ from few m
 
 Coming soon :hourglass:
 
-### Solution Scope
+###
 
-Real-time monitoring using IoT sensors enables the stakeholders to be informed about the compliance status of the treatment plants. The sensors embedded at several locations in the treatment flow help to drill down the compliance problem to a particular step in treatment technology.
