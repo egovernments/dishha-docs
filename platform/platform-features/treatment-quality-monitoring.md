@@ -1,6 +1,6 @@
 # Treatment Quality Monitoring
 
-### Context
+## Context
 
 With limited data available for STPs and FSTPs, only [578 of 1093 operational STPs](https://cpcb.nic.in/openpdffile.php?id=UmVwb3J0RmlsZXMvMTIyOF8xNjE1MTk2MzIyX21lZGlhcGhvdG85NTY0LnBkZg==) have complied treatment in 2020. The failure in compliance can be due to multiple reasons like lack of knowledge of treatment or disposal standards, expensive and infrequent lab tests, and several others listed [here](https://miro.com/app/board/o9J\_lbLj6ps=/?moveToWidget=3074457358634878411\&cot=14). Of these, we are focusing on the availability of the record-keeping of quality data.&#x20;
 
@@ -8,7 +8,7 @@ To ensure compliance of treatment at STPs and FSTPs, it is important to know the
 
 The quality data can be collected through one or more means. For instance, laboratory tests, manual entry through calibration tools, IoT sensors are different sources for the data.&#x20;
 
-#### Effluent Parameters
+### Effluent Parameters
 
 | Parameter                        | Value Range                                                 | Location                                                                                                                                                                                                                                                                                                                                         |
 | -------------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -30,7 +30,7 @@ There are three possible modes of fetching this information.
 
 Note: There are no IoT-based sensors for measuring Faecal Coliform directly.
 
-#### Biosolids Parameters
+### Biosolids Parameters
 
 {% hint style="warning" %}
 Regulations for biosolids are unclear - we currently don't have a definitive GoI-notified standard for faecal sludge-derived biosolids. Still, from what we know, a draft has been in the works for a few months. In the interim, the Advisory and Primer on FSSM (along with the CPHEEO Manual) recommended US EPA Class A Biosolids criteria (looking at E Coli/F Coli, Salmonella, Helminth Eggs). The National Policy on FSSM issued after all these three makes mention of SWM Rules, 2016, as the guiding document for processed sludge quality
@@ -67,23 +67,21 @@ To design for the future, we enable the stakeholders to know about the important
 Reference: [Plain English Guide Part 503 Biosolids Rule](https://www.epa.gov/sites/default/files/2018-12/documents/plain-english-guide-part503-biosolids-rule.pdf), [SWM Rules 2016](https://moef.gov.in/wp-content/uploads/2017/08/SWM-2016-English.pdf)
 {% endhint %}
 
-{% hint style="warning" %}
 Of all these parameters, only pH and Moisture can be monitored through IoT sensors. However, biosolids quality monitoring for other parameters using IoT is yet to be explored.
-{% endhint %}
 
-#### Frequency of Measurement
+### Frequency of Measurement
 
 Based on SLA and the parameter, the frequency of measuring can differ from a few minutes (if IoT) to several days.&#x20;
 
-#### Process Flow
+### Process Flow
 
 To understand the context of treatment monitoring, we take a look at what happens on the ground with various monitoring avenues (lab reports, sensors) in play. We assume that FSTPs have at least one of the monitoring mechanisms.
 
 ![Process flow for treatment monitoring](<../../.gitbook/assets/Screenshot 2021-11-23 at 10.00.40 AM.png>)
 
-### Platform Scope
+## Platform Scope
 
-#### Summary
+### Summary
 
 Real-time monitoring using IoT sensors OR Laboratory testing enables the stakeholders to be informed about the compliance status of the treatment plants. The samples from several locations in the treatment flow help to drill down the compliance problem to a particular step in treatment technology. While platform enables capturing treatment monitoring data by defining the required registries and services, the exemplar application provides below functions:-&#x20;
 
@@ -97,23 +95,25 @@ Real-time monitoring using IoT sensors OR Laboratory testing enables the stakeho
 * Delete Data:
   * We do not delete the data
 
-#### Data Layer
+### Data Layer
 
 Coming soon :hourglass:
 
-#### Services Layer
+### Services Layer
 
 Coming soon :hourglass:
 
-### On-boarding&#x20;
+### Design
 
-#### One-time Configuration
+## On-boarding&#x20;
+
+### One-time Configuration
 
 1. Treatment Technology
 2. Selection of Parameters
 3. Frequency of Update
 
-#### Sensor Support
+### Sensor Support
 
 Coming soon :hourglass:
 
