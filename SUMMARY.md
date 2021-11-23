@@ -12,7 +12,7 @@
   * [Glossary](mission/glossary.md)
 * [Sanitation Platform](platform/README.md)
   * [Introduction](platform/introduction.md)
-  * [Personas](platform/personas.md)
+  * [Reference Personas](platform/reference-personas.md)
   * [Platform Features](platform/platform-features/README.md)
     * [Desludging Service](platform/platform-features/desludging-service.md)
     * [Vendor Management](platform/platform-features/vendor-management.md)
