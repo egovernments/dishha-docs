@@ -105,6 +105,8 @@ Coming soon :hourglass:
 
 ### Design
 
+Coming soon :hourglass:
+
 ## On-boarding&#x20;
 
 ### One-time Configuration
