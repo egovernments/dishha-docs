@@ -79,7 +79,7 @@ Based on SLA and the parameter, the frequency of measuring can differ from a few
 
 To understand the context of treatment monitoring, we take a look at what happens on the ground with various monitoring avenues (lab reports, sensors) in play. We assume that FSTPs have at least one of the monitoring mechanisms.
 
-![Process flow for treatment monitoring](<../../.gitbook/assets/Screenshot 2021-11-23 at 9.25.42 AM.png>)
+![Process flow for treatment monitoring](<../../.gitbook/assets/Screenshot 2021-11-23 at 10.00.40 AM.png>)
 
 ### Platform Scope
 
