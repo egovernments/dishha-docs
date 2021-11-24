@@ -15,7 +15,7 @@
   * [Reference Personas](platform/reference-personas.md)
   * [Platform Features](platform/platform-features/README.md)
     * [Desludging Service](platform/platform-features/desludging-service.md)
-    * [Vendor Management](platform/platform-features/vendor-management.md)
+    * [User and Vendor Management](platform/platform-features/user-and-vendor-management.md)
     * [Treatment Quality Monitoring](platform/platform-features/treatment-quality-monitoring.md)
     * [Feedback](platform/platform-features/feedback.md)
     * [Fleet Tracking](platform/platform-features/fleet-tracking.md)
