@@ -104,7 +104,7 @@ Treatment Monitoring consists of the following smaller processes:
 
 
 
-## Platform Scope
+## Scope
 
 ### Summary
 
