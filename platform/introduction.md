@@ -20,7 +20,7 @@ The platform is being built as a Public Digital Good and follows a key set of de
 * Open
 
 {% hint style="info" %}
-DISHHA leverages the capabilities built by [DIGIT](https://www.digit.org) (Digital Infrastructure for Governance, Impact & Transformation)** **and will develop&#x20;
+DISHHA leverages the capabilities built by [DIGIT](https://www.digit.org) (Digital Infrastructure for Governance, Impact & Transformation) **** and will develop&#x20;
 {% endhint %}
 
 ## **Goals**

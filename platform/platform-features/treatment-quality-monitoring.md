@@ -89,18 +89,7 @@ Based on SLA and the parameter, the frequency of measuring can differ from a few
 
 To understand the context of treatment monitoring, we take a look at what happens on the ground with various monitoring avenues (lab reports, sensors) in play. We assume that FSTPs have at least one of the monitoring mechanisms.
 
-Treatment Monitoring consists of the following smaller processes:
-
-1. Schedule sample collection&#x20;
-2. Collect sample
-3. Generate test report&#x20;
-4. Record test report
-5. Report test report
-6. Generate real-time monitoring data
-7. Record real-time monitoring data
-8. Analyze quality parameters and take action
-
-![Process flow for treatment monitoring](<../../.gitbook/assets/Screenshot 2021-11-23 at 10.53.32 AM.png>)
+![Treatment Quality Monitoring - Proposed Flow](<../../.gitbook/assets/Treatment Quality Monitoring-Proposed Process Flow.png>)
 
 
 
