@@ -36,9 +36,3 @@
 * [Exemplar](exemplar.md)
 * [Ecosystem](ecosystem/README.md)
   * [News and Events](ecosystem/news-and-events.md)
-
-## Community
-
-* [Roadmap](https://github.com/egovernments/iFix/projects/1)
-* [Discussions](https://github.com/egovernments/iFix/discussions)
-* [Issues](https://github.com/egovernments/iFix/issues)
