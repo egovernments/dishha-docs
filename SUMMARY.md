@@ -34,5 +34,4 @@
   * [Getting Started](platform/getting-started/README.md)
     * [On AWS](platform/getting-started/on-aws.md)
 * [Exemplar](exemplar.md)
-* [Ecosystem](ecosystem/README.md)
-  * [News and Events](ecosystem/news-and-events.md)
+* [Ecosystem](ecosystem.md)
