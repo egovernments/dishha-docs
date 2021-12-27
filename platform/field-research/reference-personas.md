@@ -2,19 +2,19 @@
 
 ### Desludging Operator
 
-![](<../../.gitbook/assets/Devanahalli - Private DSO.png>)
+![](<../../.gitbook/assets/Devanahalli - Private DSO (1).png>)
 
 ### Urban Local Body
 
-![](<../../.gitbook/assets/Call Centre Operator - Dhenkanal.jpeg>)
+![](<../../.gitbook/assets/Call Centre Operator - Dhenkanal (1).jpeg>)
 
-![](<../../.gitbook/assets/Bhubaneshwar - ULB Single Window.jpeg>)
+![](<../../.gitbook/assets/Bhubaneshwar - ULB Single Window (1).jpeg>)
 
 ### Treatment Operator
 
-![](<../../.gitbook/assets/Dhenkanal- Treatment Operator.jpeg>)
+![](<../../.gitbook/assets/Devanahalli - Treatment Operator (1).png>)
 
-![](<../../.gitbook/assets/Bhubaneshwar- Treatment Operator.jpeg>)
+![](<../../.gitbook/assets/Bhubaneshwar- Treatment Operator (1).jpeg>)
 
 ### Citizen
 
