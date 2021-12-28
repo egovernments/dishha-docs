@@ -4,7 +4,7 @@ description: Work in progress
 
 # Treatment Quality Monitoring
 
-Please feel free to go through the document to share your feedback/comments.
+Please feel free to share your feedback/comments on the document [here](https://docs.google.com/document/d/1WtYjBDjiujDGCa15Vfph-DhvcFNpdlk9SCsVYtMtMLQ/edit?usp=sharing).
 
 {% embed url="https://docs.google.com/document/d/1WtYjBDjiujDGCa15Vfph-DhvcFNpdlk9SCsVYtMtMLQ/edit#" %}
 
