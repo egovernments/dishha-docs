@@ -10,6 +10,13 @@
     * [Benefits for the Ecosystem](mission/mission-outcomes/benefits-for-the-ecosystem.md)
   * [Operationalization Strategy](mission/operationalization-strategy.md)
   * [Glossary](mission/glossary.md)
+
+## Reference Applications
+
+* [Exemplar](reference-applications/exemplar.md)
+
+***
+
 * [Sanitation Platform](platform/README.md)
   * [Introduction](platform/introduction.md)
   * [Field Research](platform/field-research/README.md)
@@ -33,5 +40,4 @@
   * [Roadmap](platform/roadmap.md)
   * [Getting Started](platform/getting-started/README.md)
     * [On AWS](platform/getting-started/on-aws.md)
-* [Exemplar](exemplar.md)
 * [Ecosystem](ecosystem.md)
